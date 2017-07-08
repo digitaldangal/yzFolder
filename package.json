@@ -1,0 +1,38 @@
+{
+  "name": "yz-folder",
+  "version": "0.0.1",
+  "description": "Win10 folder browser on electron and electron-plan.",
+  "main": "app-elec/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yzorg/yzFolder.git"
+  },
+  "keywords": [
+    "electron",
+    "typescript",
+    "explorer"
+  ],
+  "author": "Chris Tracy (yzorg)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yzorg/yzFolder/issues"
+  },
+  "homepage": "https://github.com/yzorg/yzFolder#readme",
+  "dependencies": {
+    "react": "~15",
+    "react-dom": "~15"
+  },
+  "devDependencies": {
+    "@types/node": "~8",
+    "@types/react": "~15",
+    "@types/react-dom": "~15",
+    "typescript": "~2"
+  },
+  "scripts": {
+    "start": "electron .",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "electron-start": "node src/electron-wait-react",
+    "test": "react-scripts test --env=jsdom"
+  }
+}
